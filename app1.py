@@ -17,16 +17,16 @@ with tab2:
     st.subheader("Aşağıya kaydırarak ilerleyebilirsin :)")
     st.divider()
     st.divider()
-    st.markdown("_İlk anıya ilk atılan görselle başlayalım. Milk'in Mocha'ya gönderdiği o ilk resim:_")
+    st.markdown("_Milk'in Mocha'ya gönderdiği o ilk resim:_")
     st.image(image="resimler/anılarımız/ilk_anı.jpg",width=300)
     st.markdown("_Açıkçası ilk atılan resim olduğu için hala saklıyorum ve yeri bende ayrı :)_")
     st.divider()
     st.divider()
-    st.markdown("_Yine ilklerden devam ediyoruz ve bu da Mocha'nın ilk attığı ve Milk'in de beğendiği o şarkı: 'Merhabalar'_")
+    st.markdown("_Ve bu da Mocha'nın ilk attığı şarkı:_")
     st.image(image="resimler/anılarımız/hayaller/merhabalar.jpg",width=300)
     st.divider()
     st.divider()
-    st.markdown("_Şimdiki görselde ise Mocha'nın Milk'e ilk hediyesini görmekteyiz._")
+    st.markdown("_Şimdiki görsel ise Mocha'nın Milk'e ilk hediyesi_")
     st.image(image="resimler/ilk hediyeler/ilk hediyeler.jpg")
     st.markdown("_Kalemlerini sürekli kaybettiğini söyleyince aklıma bu fikir gelmişti._")
     st.divider()
@@ -59,12 +59,12 @@ with tab2:
     st.image(image="resimler/ilk hediyeler/ilkler.jpg")     
     st.divider()
     st.divider()
-    st.markdown("_Şimdiki görsel Mocha'nın hediye ettiği o dört yapraklı şans yoncası kolyesi.._")
+    st.markdown("_Şimdiki görsel Mocha'nın hediyesi olan dört yapraklı yonca kolyesi.._")
     st.image(image="resimler/ilk hediyeler/ilk hediyele.jpg",width=300)     
     st.markdown("_Sonrasında bir daha bulamasak da o zamana kadar hep boynundan çıkarmadığın için teşekkür ederim._")
     st.divider()
     st.divider()
-    st.markdown("_Burada biraz meraklı olan İrem ile uğraşıyoruz :)_")
+    st.markdown("_Küçüklük fotoğrafımın İrem'in kafasını karıştırdığı anlar :)_")
     st.image(image="resimler/anılarımız/komik anlar/komik anlarr.jpg",width=300)
     st.divider()
     st.divider()
@@ -92,17 +92,17 @@ with tab2:
     st.image(image="resimler/anılarımız/hayaller/WhatsApp Görsel 2024-06-20 saat 14.56.38_2cb0f824.jpg",width=300)
     st.divider()
     st.divider() 
-    st.markdown("_Aramızda anısı olan şarkımız:_")
+    st.markdown("_Aramızda anısı olan şarkı:_")
     st.image(image="resimler/anılarımız/hayaller/WhatsApp Görsel 2024-06-20 saat 19.20.08_364afe3e.jpg",width=300)
     st.divider()
     st.divider()  
     st.markdown("_Şimdi de hediye duraklarını tamamlayalım:_")
     st.image(image="resimler/ilk hediyeler/ilk hediyee.jpg", width=400)
-    st.markdown("_Doğum günlerinde özellikle daha çok düşünürdüm. Çünkü uzak mesafenin getirdiği zorluklardan birisi de sevdiğinin insanın özel gününde fiziksel olarak bir arada olamamak.. Bunu kapatabilmek için hep elimden geleninden fazlasını yapmaya çalıştım._")
+    st.markdown("_Doğum günlerindeki hediyeye özellikle daha çok düşünürdüm_")
     st.divider()  
     st.markdown("_Fakat bir hediye beni hayal kırıklığına uğratmıştır diyecek olursam o da budur..._")
     st.image(image="resimler/ilk hediyeler/ilk hediyeler hayal kırıklığı.jpg",width=400)
-    st.markdown("_Gemi yerine surf yapan insan mı??? Neyseki anlayışlı bir Milk ile beraberdim. Thanks God!_")
+    st.markdown("_Gemi yerine surf yapan insan mı??? Bir de yanında köpek balığı.. Neyseki anlayışlı bir Milk ile beraberdim. Thanks God!_")
     st.divider()  
     st.divider()
     st.markdown("_Milk'in gönderdiği ve beni çok etkileyen anlamlı hediye:_")  
@@ -124,7 +124,7 @@ with tab2:
     st.markdown("**Ve ben artık o gücümü kaybettim.**")
     st.divider()  
     st.divider()
-    st.markdown("**Anılar durağının şimdilik sonu. Diğer durağa uğramak için lütfen en üstteki 'Son Durak' sekmesine tıkla.**")
+    st.markdown("**Anılar durağının şimdilik sonu. Diğer durağa uğramak için lütfen en üstteki 'Son Durak' sekmesine tıkla!**")
     
     
 with tab3:
@@ -136,11 +136,11 @@ with tab3:
     st.markdown("_Şimdi yapman gereken iki seçenek mevcut aşağıda. İlk seçenek tıklandığında var olan tüm anılar ve duyguları silecek. Sonrasında hiçbir şey olmayacak ve ikinci seçeneğe asla tıklanamayacak. Eğer ikinci seçeneği seçersen anılar silinmeyecek ve yeni bir pencere açılacak. Bu pencerede neler çıkacağını bu noktada bilemiyoruz. Yalnızca açıldığında görebileceksin. O yüzden kararını düşünerek vermelisin. Tıpkı şu an yaşadığımız hayat gibi bu da bir seçim. Kararlarımız bir sonraki adımların belirsizliğiyle devam eder. Onları açmadan nelerle karşılaşacağımızı bilemeyiz. Her neyi seçecek olursan seninle tanışmak benim başıma gelen en güzel şeydi Milk!_")
 
     st.divider()
-    if st.button("**Tüm Anı ve Duyguları Sil**"):
+    if st.button("**Delete Emotions**"):
         st.session_state.disable_second_button = True
         st.error("ERROR: The file is too big.")
 
-    if st.button("**Silme**", disabled=st.session_state.disable_second_button):
+    if st.button("**Do not Delete**", disabled=st.session_state.disable_second_button):
         st.write("_Parola: 'gıcık'_")
         st.write("Bu parolayı Mocha'ya ilettiğinde o sana gerekli haberleri verecek.")
         st.image("resimler/milk-and-mocha-milk-mocha-bear.gif")
