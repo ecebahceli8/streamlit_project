@@ -65,7 +65,7 @@ with tab2:
     st.divider()
     st.divider()
     st.markdown("_Burada biraz meraklı olan İrem ile uğraşıyoruz :)_")
-    st.image(image="resimler/resimler/anılarımız/komik anlar/komik anlarr.jpg",width=300)
+    st.image(image="resimler/anılarımız/komik anlar/komik anlarr.jpg",width=300)
     st.divider()
     st.divider()
     st.markdown("_Benim yalnız kaldığımda sana yazdığım o şiir:_")    
